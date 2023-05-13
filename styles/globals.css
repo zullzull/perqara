@@ -2,26 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  html {
+    font-family: MonserratRegular;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* -------------------------------------------------------------------------- */
+/*                                   Global                                   */
+/* -------------------------------------------------------------------------- */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+html.dark {
+  @apply bg-pq-secondary;
+}
+
+.wrapper-fluid {
+  @apply w-screen max-w-screen-xl mx-auto;
+}
+
+h1,
+.h1 {
+  @apply text-3xl;
+}
+
+h2,
+.h2 {
+  @apply text-[28px];
+}
+
+h3,
+.h3 {
+  @apply text-[25px];
+}
+
+h4,
+.h4 {
+  @apply text-[23px];
+}
+
+h5,
+.h5 {
+  @apply text-[18px];
+}
+
+h6,
+.h6 {
+  @apply text-[16px];
+}
+
+
+p {
+  @apply text-xs;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  Gradient                                  */
+/* -------------------------------------------------------------------------- */
+
+.bg-primary-gradient {
+  background: linear-gradient(to bottom, #2F363F 30%, #1A1E24 0%);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Swiper                                   */
+/* -------------------------------------------------------------------------- */
+.pagination-wraper-perqara {
+  @apply absolute bottom-0 !left-1/2 !transform !-translate-x-1/2 !translate-y-1/2 my-8 !w-max !overflow-hidden flex space-x-4
+}
+
+.pagination-active-perqara {
+  @apply w-16 bg-pq-orange rounded-lg
 }

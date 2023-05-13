@@ -1,0 +1,71 @@
+@font-face {
+   font-family: 'Monserrat-Thin';
+   src:  url('../static/fonts/Montserrat-Thin.woff') format('woff'),
+         url('../static/fonts/Montserrat-Thin.woff2') format('woff2');
+   font-weight: 100;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-ExtraLight';
+   src:  url('../static/fonts/Montserrat-ExtraLight.woff') format('woff'),
+         url('../static/fonts/Montserrat-ExtraLight.woff2') format('woff2');
+   font-weight: 200;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-Light';
+   src:  url('../static/fonts/Montserrat-Light.woff') format('woff'),
+         url('../static/fonts/Montserrat-Light.woff2') format('woff2');
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'MonserratRegular';
+   src:  url('../static/fonts/Montserrat-Regular.woff') format('woff'),
+         url('../static/fonts/Montserrat-Regular.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-Medium';
+   src:  url('../static/fonts/Montserrat-Medium.woff') format('woff'),
+         url('../static/fonts/Montserrat-Medium.woff2') format('woff2');
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-SemiBold';
+   src:  url('../static/fonts/Montserrat-SemiBold.woff') format('woff'),
+         url('../static/fonts/Montserrat-SemiBold.woff2') format('woff2');
+   font-weight: 600;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-Bold';
+   src:  url('../static/fonts/Montserrat-Bold.woff') format('woff'),
+         url('../static/fonts/Montserrat-Bold.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-ExtraBold';
+   src:  url('../static/fonts/Montserrat-ExtraBold.woff') format('woff'),
+         url('../static/fonts/Montserrat-ExtraBold.woff2') format('woff2');
+   font-weight: 800;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Monserrat-Black';
+   src:  url('../static/fonts/Montserrat-Black.woff') format('woff'),
+         url('../static/fonts/Montserrat-Black.woff2') format('woff2');
+   font-weight: 900;
+   font-style: normal;
+}

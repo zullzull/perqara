@@ -4,7 +4,7 @@ export default function Footer() {
          <div className="wrapper-fluid relative">
             <div className="flex items-center justify-between pt-[65px] pb-[79px]">
                <div className="text-[13px] text-[#929292]">
-                  &copy; 2023 MoovieTime. All rights reserved
+                  &#169; 2023 MoovieTime. All rights reserved
                </div>
                <div>
                   <svg width="89" height="25" viewBox="0 0 89 25" fill="none" xmlns="http://www.w3.org/2000/svg">

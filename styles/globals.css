@@ -28,6 +28,9 @@ html.dark {
   @apply bg-pq-secondary;
 }
 
+body::-webkit-scrollbar {
+  width: 0em;
+}
 .wrapper-fluid {
   @apply w-screen max-w-screen-xl mx-auto;
 }

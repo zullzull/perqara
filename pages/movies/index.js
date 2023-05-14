@@ -92,14 +92,14 @@ export default function Movies() {
    return (
       <>
          <HeadSEO title="MoovieTime" />
-         <section className='MoviesPage bg-primary-gradient'>
+         <section className="MoviesPage bg-pq-primary before:content-[''] before:w-screen before:h-40 before:md:h-96 before:bg-pq-secondary before:absolute before:inset-0">
             <div className="wrapper-fluid">
-               <div className="MoviesTitle py-[59px] w-2/12">
+               <div className="MoviesTitle py-[59px]">
                   <Title name="Movies" big={true} />
                </div>
                <div className="MoviesMain grid grid-cols-12 gap-x-7">
                   <aside className="col-span-3 text-pq-gray">
-                     <div className="rounded-lg bg-gradient-to-tl from-[#1E232A] to-[#0E1723] pt-[2px] pb-5">
+                     <div className="rounded-lg bg-gradient-to-tl from-[#1E232A] to-[#0E1723] pt-[2px] pb-5 relative z-10">
                         <h6 className="p-[18px] border-b border-white/70">
                            Sort Result By
                         </h6>

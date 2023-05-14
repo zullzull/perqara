@@ -92,7 +92,7 @@ export default function Movies() {
    return (
       <>
          <HeadSEO title="MoovieTime" />
-         <section className="MoviesPage bg-pq-primary before:content-[''] before:w-screen before:h-40 before:md:h-96 before:bg-pq-secondary before:absolute before:inset-0">
+         <section className="MoviesPage bg-pq-primary before:content-[''] before:w-screen before:h-40 before:md:h-[372px] before:bg-pq-secondary before:absolute before:inset-0">
             <div className="wrapper-fluid">
                <div className="MoviesTitle py-[59px]">
                   <Title name="Movies" big={true} />

@@ -1,5 +1,4 @@
 export default function Rating({size, score, big, bigg, up, mode}) {
-   console.log(up, mode)
    return (
       <div className={`flex space-x-2 ${ !up && 'items-center'}`}>
          <svg width={size} height={size} viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
